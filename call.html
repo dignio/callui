@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>DignioCall</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="main.css"/>
+    <script src="http://code.jquery.com/jquery-1.6.4.min.js" type="text/javascript"></script>
+    <script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js" type="text/javascript"></script>
+</head>
+
+<body id="index" class="home">
+    <div class="ui-header ui-bar-a" data-swatch="a" data-theme="b" data-form="ui-bar-a" data-role="header" role="banner">
+        <a class="ui-btn-left ui-btn ui-btn-icon-notext ui-btn-corner-all ui-shadow ui-btn-up-a" data-iconpos="notext" data-theme="b" data-role="button" data-icon="home" title=" Home "><span class="ui-btn-inner ui-btn-corner-all"><span class="ui-btn-text">Home</span> </span></a>
+
+        <h1 class="ui-title" tabindex="0" role="heading" aria-level="1">Jennifer Goldie Oldtown</h1><a class="ui-btn-right ui-btn ui-btn-icon-notext ui-btn-corner-all ui-shadow ui-btn-up-a" data-iconpos="notext" data-theme="b" data-role="button" data-icon="grid" title=" Navigation "><span class="ui-btn-inner ui-btn-corner-all"><span class="ui-btn-text">Navigation</span> </span></a>
+    </div>
+
+    <div class="ui-content ui-body-a" data-theme="b" data-form="ui-body-a" data-role="content" role="main">
+        <input type="text" value="Duration: 0h 36s" class="input" data-form="ui-body-a">
+        <div data-role="fieldcontain">
+            <select name="select-choice-1" id="select-choice-1" data-native-menu="false" data-theme="b" data-form="ui-btn-up-a">
+                <option value="standard">
+                    Transfer call
+                </option>
+
+                <option value="station1">
+                    Station 1
+                </option>
+
+                <option value="station2">
+                    Station 2
+                </option>
+
+                <option value="station4">
+                    Statoion 3
+                </option>
+            </select>
+        </div>
+        <div data-role="fieldcontain">
+            <select name="select-choice-1" id="select-choice-1" data-native-menu="false" data-theme="c" data-form="ui-btn-up-a">
+                <option value="standard">
+                    Add to conversation
+                </option>
+
+                <option value="1">
+                    Doctor
+                </option>
+
+                <option value="2">
+                    Hospital
+                </option>
+
+                <option value="3">
+                    Add number manually
+                </option>
+            </select>
+        </div>
+      <div data-role="fieldcontain">
+            <fieldset data-role="controlgroup">
+                <ul>
+                    <li data-swatch="a" class="ui-li ui-li-divider ui-btn ui-bar-a ui-corner-top" data-role="list-divider" role="" data-form="ui-bar-a">Participants</li>
+
+                    <li style="list-style: none">
+                    <!--  <input type="radio" name="radio-choice-a" id="radio-choice-1-a" value="choice-1" checked="checked">
+                      <label for="radio-choice-1-a" data-form="ui-btn-up-a" class="ui-corner-none">Radio 1</label> 
+                      <input type="radio" name="radio-choice-a" id="radio-choice-2-a" value="choice-2">
+                      <label for="radio-choice-2-a" data-form="ui-btn-up-a">Radio 2</label>-->
+                      <input type="checkbox" name="checkbox-1" id="checkbox-1" class="custom" checked="checked"> <label for="checkbox-1" data-form="ui-btn-up-a">Jennifer G. Oldtown</label>
+                      <input type="checkbox" name="checkbox-2" id="checkbox-2" class="custom" checked="checked"> <label for="checkbox-2" data-form="ui-btn-up-a">Karen Hansson</label>
+                      <input type="checkbox" name="checkbox-3" id="checkbox-3" class="custom" checked="checked"> <label for="checkbox-3" data-form="ui-btn-up-a">Jim Johnson, MD</label>
+                    </li>
+                </ul>
+            </fieldset>
+        </div> 
+
+        <div data-role="fieldcontain">
+            <fieldset data-role="controlgroup" data-type="horizontal">
+                <input type="radio" name="radio-view-a" id="radio-view-a-a" value="list" checked="checked"> <label for="radio-view-a-a" data-form="ui-btn-up-a">On</label> <input type="radio" name="radio-view-a" id="radio-view-b-a" value="grid"> <label for="radio-view-b-a" data-form="ui-btn-up-a">Mute</label>
+                <input type="radio" name="radio-view-b" id="radio-view-a-b" value="list" checked="checked"> <label for="radio-view-a-b" data-form="ui-btn-up-a">Int.</label> <input type="radio" name="radio-view-b" id="radio-view-b-b" value="grid"> <label for="radio-view-b-b" data-form="ui-btn-up-b">Speaker</label> 
+            </fieldset>
+        </div>
+
+        
+
+        <div data-role="fieldcontain">
+            <input type="range" name="slider" value="60" min="0" max="100" data-form="ui-body-a" data-theme="b">
+        </div>
+        <button data-icon="star" data-theme="e" data-form="ui-btn-up-a">Stop</button>
+    </div>
+</body>
+</html>
